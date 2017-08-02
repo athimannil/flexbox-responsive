@@ -1,0 +1,29 @@
+.home-header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background-color: $white;
+}
+
+.header {
+  height: 6.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-icon {
+  display: block;
+  cursor: pointer;
+	width: 2.5rem;
+  .menu-line {
+    float: left;
+    height: 4px;
+    width: 100%;
+		margin: 4px 0;
+    background-color: $brand-color;
+  }
+}
